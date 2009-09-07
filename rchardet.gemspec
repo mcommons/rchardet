@@ -1,15 +1,8 @@
 # -*- encoding: utf-8 -*-
 
-require 'rubygems'
-begin
-  require 'lib/rchardet'
-rescue LoadError
-  module CharDet; VERSION = '0.0.0'; end
-end
-
 Gem::Specification.new do |s|
   s.name              = "rchardet"
-  s.version           = CharDet::VERSION
+  s.version           = "1.3.1"
   s.author            = "Jeff Hodges"
   s.email             = "jeff at somethingsimilar dot com"
   s.homepage          = "http://github.com/mcommons/rchardet/tree/master"
